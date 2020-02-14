@@ -9,6 +9,7 @@ tap 'homebrew/services'
 tap 'nektos/tap'
 tap 'scalacenter/bloop'
 tap 'homebrew/cask-fonts'
+tap "github/gh"
 
 # Binaries
 brew 'awscli'
@@ -18,6 +19,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'git'
 brew 'git-lfs'
+brew "github/gh/gh"
 brew 'gnupg2'
 brew 'grep'
 brew 'httpie'
@@ -63,6 +65,7 @@ cask 'caffeine'
 cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
+cask "google-cloud-sdk"
 cask 'gpg-suite'
 cask 'iterm2'
 cask 'jetbrains-toolbox'
