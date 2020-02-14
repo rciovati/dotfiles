@@ -8,6 +8,8 @@ alias c="clear"
 
 alias gw="./gradlew"
 alias gwo="./gradlew --offline"
+alias gwq="./gradlew --quiet"
+
 alias r='cd $(ghq list --full-path | peco)'
 alias hs="hub sync"
 
