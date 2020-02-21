@@ -37,6 +37,8 @@ brew 'wget'
 brew 'yq'
 
 # Development
+cask "adoptopenjdk8"
+cask "android-sdk"
 brew 'bazel'
 brew 'cloc'
 brew 'cmake'
