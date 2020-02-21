@@ -26,6 +26,7 @@ brew 'httpie'
 brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'peco'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
@@ -48,7 +49,6 @@ brew 'jq'
 brew 'kotlin'
 brew 'minikube'
 brew 'node'
-brew 'postman'
 brew 'pwgen'
 brew 'rbenv'
 brew 'sbt'
@@ -60,7 +60,6 @@ brew 'scalacenter/bloop/bloop'
 
 # Apps
 cask 'alfred'
-cask 'burp-suite'
 cask 'caffeine'
 cask 'docker'
 cask 'firefox'
@@ -69,6 +68,7 @@ cask "google-cloud-sdk"
 cask 'gpg-suite'
 cask 'iterm2'
 cask 'jetbrains-toolbox'
+cask 'postman'
 cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
