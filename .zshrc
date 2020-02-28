@@ -7,9 +7,6 @@ export DOTFILES=$HOME/.dotfiles
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Enable completions
-autoload -Uz compinit && compinit
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -78,6 +75,9 @@ plugins=(git golang docker httpie adb zsh-autosuggestions sbt zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
+# Enable completions
+autoload -Uz compinit && compinit
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,3 +107,6 @@ export LANG=en_US.UTF-8
 
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source /Users/riccardociovati/.local_aliases.zsh
